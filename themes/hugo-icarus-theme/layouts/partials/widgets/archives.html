@@ -1,0 +1,26 @@
+{{ if .Site.Params.widgets.archives }}
+{{ if isset .Site.Taxonomies "archives" }}
+{{ if not (eq (len .Site.Taxonomies.archives) 0) }}
+<div class="widget-wrap">
+    <h3 class="widget-title">{{with .Site.Data.l10n.widgets.archives.title}}{{.}}{{end}}</h3>
+    <div class="widget">
+        <ul class="category-list">
+            {{ $archives := .Site }}
+            {{ printf "%#v" $archives }}
+            {{ range $name, $items := (where .Site "Taxonomies" "archives") }}
+            {{ if eq (len $name) 7 }}
+            <li class="category-list-item">
+                <a class="category-list-link" href="{{ $.Site.BaseURL }}archives/{{ $name | urlize | lower }}">
+                    {{ $name }}
+                </a>
+                <span class="category-list-count">{{ len $items }}</span>
+            </li>
+            {{ end }}
+            {{ end }}
+
+        </ul>
+    </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

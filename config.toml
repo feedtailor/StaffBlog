@@ -18,6 +18,12 @@ footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+
 [permalinks]
     post = "/:year/:month/:day/:slug"
 
@@ -98,3 +104,4 @@ theme = "hugo-icarus-theme"
     categories = true
     tags = false
     tag_cloud = true
+    archives = true
