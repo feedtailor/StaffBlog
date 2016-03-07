@@ -1,0 +1,125 @@
+---
+title: 超聖域：JavaFXのGradleビルド
+author: tamaoki
+layout: post
+date: 2015-08-10
+banner: http://feedtailor.jp/staff/wp-content/uploads/2015/08/javafx_gradle_screenshot-450x184.png
+archives:
+  - 2015/08
+  - 2015/08/10
+url: /2015/08/10/1013
+categories:
+  - 技術情報
+
+---
+営業兼開発の tamaoki ([@t0shiya](https://twitter.com/t0shiya)) です。
+
+7月1日〜7日まで弊社の９周年記念(?)として[「超聖域」](http://feedtailor.jp/wp/?p=14425)なるイベントが開催されました。
+  
+「超聖域」っていうのは、期間中は通常業務をやらなくていいので自由に作りたいものを作ってねー、というもので、私は対外的な業務があるので100%開発とは行かなかったのですが、2日間くらいはがっつり開発できました。
+  
+で、何をやったかというと以前から着手していた [SYNCNEL](http://www.syncnel.biz) のJavaFXアプリケーションのGradleビルドスクリプトを書いてました。
+
+<!--more-->
+
+# JavaFX
+
+JavaFXとはJavaのGUIツールキットでJDK8からは標準で提供されています。
+  
+SYNCNELでは以前からWindows専用アプリケーションをいくつかご提供していたのですが、個人的に「Macでも使いたい」とか「Java8の新機能（ラムダ式とか）を使ってみたい」との思いから（主に後者）、JavaFXでデスクトップアプリを作り始めました。
+  
+JavaFXではSelf-Containedなアプリ（ルー語みたい？）、つまりJavaの実行環境を内包した単独実行できるアプリケーションを作る機能が用意されていて、比較的簡単にデスクトップアプリが作成できます。
+  
+簡単とは言いましたが、はまるポイントは幾つもあったので、今回はその内のビルドスクリプトについてご紹介します。
+
+# Gradleビルドスクリプト
+
+アプリ自体はコードが書ければできあがるんですが、それを公開するとなるといろいろやることがあります。
+  
+一般の方に使っていただくにはインストーラを用意したり、コードにサインしたり、・・・・・・。
+
+JavaFXアプリをビルドするための方法は標準でOracleから提供されているんですが、これがなぜかAntのタスクで。
+  
+既にあるGradleスクリプトから外部タスクとして実行する手もあったんですがなんか気持ちよくないので、Gradleのタスクとして直接実行するようにしました。
+  
+JARファイル作成までは探せば情報があるんですが、その先がなくて、試行錯誤の末、できあがったのが以下の build.gradle です。
+
+    import groovy.xml.NamespaceBuilder
+    
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    
+    version = 'アプリのバージョン'
+    
+    def vender_name    = 'ベンダー名'
+    def jar_name       = 'JARファイル名'
+    def app_name       = 'アプリ名'
+    def app_width      = 'アプリのウィンドウ幅'
+    def app_height     = 'アプリのウィンドウ高さ'
+    def app_main_class = 'JavaFXのアプリケーションクラス'
+    
+    configurations { antfx }
+    
+    ...
+    
+    dependencies {
+        // 環境変数からJDKのロケーションを取得
+        antfx files("${project.property('org.gradle.java.home')}/lib/ant-javafx.jar")
+        // 依存ライブラリ
+        compile ... 
+    }
+    
+    task fx_deploy(dependsOn: 'classes') << {
+        def jar_dir  = "${buildDir}/libs"
+        def jar_file = "${jar_dir}/${jar_name}-${version}.jar"
+    
+        def fx = NamespaceBuilder.newInstance(ant, 'javafx:com.sun.javafx.tools.ant')
+        ant.taskdef(
+                resource: 'com/sun/javafx/tools/ant/antlib.xml',
+                uri: 'javafx:com.sun.javafx.tools.ant',
+                // src/main/deploy をクラスパスに追加
+                classpath: 'src/main/deploy:' + configurations.antfx.asPath)
+    
+        fx.application(
+                id: jar_name,
+                name: app_name,
+                version: version,
+                mainClass: app_main_class)
+    
+        copy {
+            into jar_dir
+            from configurations.runtime
+        }
+    
+        fx.jar(destfile: jar_file) {
+            application(refid: jar_name)
+            fileset(dir: "${buildDir}/resources/main")
+            fileset(dir: "${buildDir}/classes/main")
+            resources {
+                fileset(dir: jar_dir)
+            }
+        }
+    
+        fx.deploy(
+                outdir: distsDir,
+                outfile: jar_name,
+                width: app_width,
+                height: app_height,
+                nativeBundles: 'all',
+                verbose: true) {
+            application(refid: jar_name)
+            resources {
+                fileset(dir: jar_dir)
+            }
+            info(title: app_name, vendor: vender_name)
+        }
+    }
+    
+
+アプリやOSX用dmgのアイコン等のプラットフォーム固有のファイルは src/main/deploy/package/(macosx|windows) 以下に置いてください。
+  
+後はタスクを実行するだけで、OSXならdmgファイル、Windowsならmsiファイル(WIXが必要) まで出来上がり。署名すれば、MacAppStore にも出せます。
+  
+Androidアプリをデスクトップに移植とかしたい人はJavaFXを検討するのもいいかもしれません。
+
+ということで、ビルドしたアプリケーションは近日中に SYNCNEL Content Manager（仮名）としてリリース予定です！！

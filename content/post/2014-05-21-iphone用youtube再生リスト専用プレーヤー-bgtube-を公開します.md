@@ -1,0 +1,124 @@
+---
+title: iPhone用YouTube再生リスト専用プレーヤー BGTube を公開します
+author: itok
+layout: post
+date: 2014-05-21
+banner: http://feedtailor.jp/staff/wp-content/uploads/2014/05/8b9c5dd4976a3fa0a3a7c091228963c7-450x200.png
+archives:
+  - 2014/05
+  - 2014/05/21
+url: /2014/05/21/161
+categories:
+  - アプリご紹介
+tags:
+  - BGTube
+  - アプリリリース
+
+---
+新作続きですけれども、またまた新作iPhoneアプリが公開されましたのでお知らせします。
+
+その名も、
+
+## BGTube
+
+<a href="https://itunes.apple.com/app/id876208185" target="_blank"><img class="alignnone size-full wp-image-162" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/53394b992df5454fdee0c605c1cb73a2.png" alt="Icon@2x" width="120" height="120" /></a>
+
+いつものようにストアから引用しますと
+
+> BGTubeはYouTubeの再生リスト専用のプレーヤーアプリです。シンプルなインターフェースで再生リストを再生させることに特化しました。バックグランド再生にも対応しているので作業用BGMなどにお使いください。
+
+<a href="https://itunes.apple.com/app/id876208185" target="_blank"><img class="alignnone size-full wp-image-58" src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" /></a>
+
+というアプリです。
+
+* * *
+
+さて、そもそも、
+
+### 再生リストってなに？
+
+YouTubeのアカウント（つまりはGoogleのアカウント）でログインすると動画を自分用のリスト（再生リスト）にまとめることができます。
+
+[<img class="alignnone size-medium wp-image-163" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/6dec9a86c42f0c0678127730d290e9eb-300x216.jpg" alt="スクリーンショット 2014-05-21 9.11.19 2014-05-21 09-14-34 2014-05-21 09-16-18" width="300" height="216" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/6dec9a86c42f0c0678127730d290e9eb.jpg)
+
+このアプリはこのリストを再生することに特化したアプリです。（ですので、Googleのアカウントが必要です）
+
+### 主な機能
+
+再生リスト専用のプレーヤーということなので、機能はいたってシンプルです。シンプルですがプレーヤーとしての押さえ所はおさえてあるのではないかと。
+
+#### 再生リスト、お気に入り、後で見る、履歴、などに対応
+
+再生リスト専用といいつつ、わざわざリストを作らなくても、お気に入りに入れたり、後で見るにチェックすることでこのアプリで再生できるようになります。
+
+[<img class="alignnone size-medium wp-image-168" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/2-169x300.png" alt="2" width="169" height="300" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/2.png)
+
+たとえば、ブラウザ上で面白そうな動画を見つけて、右下の「後で見る」をクリックすると
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/dfac6e43e015d44b8be85f62c00c348d-300x168.jpg" alt="スクリーンショット 2014-05-21 10.08.14（2） 2014-05-21 10-08-51 2014-05-21 10-09-36" width="300" height="168" class="alignnone size-medium wp-image-180" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/dfac6e43e015d44b8be85f62c00c348d.jpg)
+
+アプリの「後で見る」に表示されますので、アプリ内でそのまま再生できます。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/625b2c6ba702af75ac188421b1d06d5a-169x300.png" alt="iOSシミュレータのスクリーンショット 2014.05.21 10.13.30" width="169" height="300" class="alignnone size-medium wp-image-181" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/625b2c6ba702af75ac188421b1d06d5a.png)
+
+#### リピート再生、シャッフル再生
+
+順番繰り返しだけじゃ物足りない、自分リストをシャッフルしてBGMにどうぞ。（シャッフルは「すべて再生」したときだけ有効になります）
+
+[<img class="alignnone size-medium wp-image-167" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/1_2014-05-21-09-29-40-169x300.jpg" alt="1_2014-05-21 09-29-40" width="169" height="300" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/1_2014-05-21-09-29-40.jpg)
+
+#### バックグランド再生
+
+作業用BGMにっていうくらいなのでもちろん搭載してます、バックグランド再生。ロックしてても再生できますよ。（バックグランド移行時に一瞬音切れする可能性がありますのでご了承ください）
+
+#### フルスクリーン対応
+
+純粋に動画を見る、という目的では必要ですよね。
+
+[<img class="alignnone size-medium wp-image-169" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/4-300x169.png" alt="4" width="300" height="169" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/4.png)
+
+#### AirPlay対応
+
+AppleTVやBluetoothヘッドセットなんかにも出力可能です。お気に入り動画をリビングのTVでどうぞ。
+
+[<img class="alignnone size-medium wp-image-170" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/3-169x300.png" alt="3" width="169" height="300" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/3.png)
+
+#### リモコン対応
+
+一部のリモコン操作に対応しています。再生・一時停止、曲送りなどが可能です。
+
+というわけで、コントロールセンターでの操作も可能になってます。ロック画面にもアートワーク（サムネイル）が表示されます。
+
+[<img class="alignnone size-medium wp-image-171" src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/5-169x300.png" alt="5" width="169" height="300" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/5.png)
+
+（なお、コントロールセンターへの表示は設定でOFFにすることもできます）
+
+### 注意事項
+
+シンプルなプレーヤーですので、以下のような機能は搭載しておりません。
+
+  * 動画の検索
+  * 再生リストの編集
+  * 公開されている他の再生リストの再生
+
+また動画再生というアプリの性質上、携帯回線で使われる場合には通信量に注意してください。
+
+<a href="https://itunes.apple.com/app/id876208185" target="_blank"><img class="alignnone size-full wp-image-58" src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" /></a>
+
+#### 余談：開発経緯
+
+毎週行われる社内ミーティングでこの企画が提出されました。もちろん発案者は私itokです。
+
+当時（といっても発案は3週間前ですが）作業用BGMとして再生リストを作ったものの、満足に再生できるプレーヤーを見つけられませんでした。バックグランドで再生できなかったり、シャッフル機能がなかったり。。。
+
+そんなこんなで企画をあげてアプリを作ってみました。毎日使ってますけれど、すこぶるいい感じです。
+
+<small>（あ、ちなみに、当初アプリ名候補としてアシュラとかサンシャインとかそのへんにからませようかとも思ったんですが、、、諸般の事情により普通の名前に落ち着きました）</small>
+
+### 最後に
+
+大事なことですが、無料アプリです。無料です。
+
+ぜひ使ってみてください。
+
+<a href="https://itunes.apple.com/app/id876208185" target="_blank"><img class="alignnone size-full wp-image-58" src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" /></a>

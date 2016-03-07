@@ -1,0 +1,85 @@
+---
+title: 新サービス Dailyshot をリリース！
+author: kumakura
+layout: post
+date: 2014-11-05
+banner: http://feedtailor.jp/staff/wp-content/uploads/2014/11/dailyshot_logo_100.png
+archives:
+  - 2014/11
+  - 2014/11/05
+url: /2014/11/05/565
+categories:
+  - アプリご紹介
+
+---
+このたび、新サービス「Dailyshot」を始めます。
+  
+サービスの企画＆サーバ開発のくまくら ([@kumatch](http://twitter.com/kumatch)) です。
+
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/dailyshot_icon-150x150.png" alt="dailyshot_icon" width="150" height="150" class="alignnone size-thumbnail wp-image-581" /></a>
+
+## 色々な小さな情報を毎日記録
+
+Dailyshot は、自分で決めたテーマに基づいて、一日の様々な事柄や出来事を小さく記録していくサービスです。
+
+小さくというのは、例えば一枚の写真、簡潔な一言、数字、あるいは印（マーク）といったものになります。そういった小さな情報を少しずつ、一日単位で綴っていき、それら記録を「日付」という時系列で並べていきます。
+
+一方、他の人（友人）も同じように一日単位の小さな記録を作っています。あなたがその人をサービス内でフォローすると、自分の毎日の記録と並んで、その人の記録が一緒に表示されます。そうすると、ある一日の出来事として、あなたと友人がどうだったのかということを眺めることができます。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_01-169x300.png" alt="press_dailyshot_ios_01" width="169" height="300" class="alignnone size-medium wp-image-570" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_01.png)
+
+ふとしたきっかけで過去の自分や友人の身の回りを振り返って眺めるというのはなかなか楽しいものです。あるいは、友人同士であえて同じテーマの内容を毎日記録していって、比較をしては一喜一憂するのも良いかもしれません。
+
+みんなの毎日の記録が一杯になってくると、大きな画面で一気に眺めるのが壮観です。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_09-300x141.png" alt="press_dailyshot_ios_09" width="300" height="141" class="alignnone size-medium wp-image-573" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_09.png)
+
+iPhone6 Plus の大きな画面で見るのがオススメですね！
+
+上のように自分や友人の記録を一気に眺めることができることをコンセプトの１つとして据えていたので、最初の方でも書いているように、記録できる内容は出来る限り小さくしようと考えました。それらを並べた際、１マスの中に記録された内容が省略されることなく全貌すべてを見れるようにしたかったからです。
+
+なので、文字を記録することができる「単文」で入力可能な文字数は、７文字にしました。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_03-169x300.png" alt="press_dailyshot_ios_03" width="169" height="300" class="alignnone size-medium wp-image-574" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_03.png)
+
+Dailyshot は、企画時点でこの仕様を提示した際には少し笑いが起きた上で、サービス用のアプリ開発の開始直後、アプリ担当の [@sumihiro](http://twitter.com/sumihiro) が始めて単文をアプリから投稿しようと「Dailyshot」と入力したところ、サーバからエラー応答を受け取ったため、サーバの不具合ではないかと本気で聞かれたところから始まりました。（もちろんサーバ視点では妥当な振る舞い）
+
+## 本当に気に入ったものへ、そのとおりの思いを
+
+Dailyshot では、他のひとが記録として投稿した内容に対して他の SNS と同様に「Like」することができるのですが、Like した、していないという類いのものではなく、その度合いを示せるよう Like を複数回行えるようにしました。つまり、友人のその日の投稿を本当に気に入った場合は、20 Like を贈ることができます。
+
+Like をたくさん贈るためには、ほんの少し昔に流行ったあのやり方と同じように、ボタンをたくさん押します。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_06-169x300.png" alt="press_dailyshot_ios_06" width="169" height="300" class="alignnone size-medium wp-image-575" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_06.png)
+
+しかし、一度に無制限で贈れてしまうと訳が分からなくなってしまうので、一応僅かばかりの制約を作りました。システムとして現在 Like 可能な数が設けられています。Like リソースの上限値が 100 になっていますので、あるタイミングで１つの投稿に Like できる数は 100 まで、ということになります。このリソースは時間と共に回復する、これまたよく聞いたことがあるようなシステムです。回復したあと、同じ投稿に対して再び Like することは可能ですので、日を改めて投稿を見た際にやっぱり気に入っていてもう一度幾つか贈る、というような楽しみ方ができますよ。
+
+## Dailyshot の楽しみ方
+
+Dailyshot は、たとえば次にあげるような楽しみ方があります。もちろんこれだけではないはずで、毎日継続して何かを記録していき、それらが並ぶというコンセプトに沿って様々な使い方がありそうです。
+
+### 写真日記
+
+例えばペットの毎日の様子を写真に撮って、Dailyshot に記録していきます。毎日続けていって、あるときにふと振り返ってみると、小さかったときの様子、顔つきの変化などが見て取れるはずです。
+
+### ひとこと日記
+
+その日にやった事、特徴的だった出来事を一言で表して記録していきます。先ほど挙げたように、なにせ７文字ですから、書けることは限られています。１、２文章書くことと比べても楽なわりに、後日読み直してみると良い思い出しができたり、むりやり短いひとことで書いたが故の可笑しさを楽しめたりできます。
+
+### トレーニング記録
+
+上げたウェイト、あるいは走った距離、歩いた歩数。それぞれトレーニングしている内容毎にテーマを１つずつ作って記録していけば、日々の成長の様子、あるいは相互関係を掴めるかもしれません。
+  
+友達とも同じ内容を記録していけば、お互いに良い影響を与え合いながら継続させていくことも。
+
+## まとめ
+
+新しいサービス Dailyshot についてと、その基本的な使い方について紹介しました。
+
+会社ページの方でもリリースに関する情報を掲載しています。そちらでも詳細に紹介していますので、是非ご覧ください。
+  
+<a href="http://feedtailor.jp/press_dailyshot" title="フィードテイラー、毎日の写真や一言を残していく新感覚のライフログサービス「Dailyshot」をスタート！" target="_blank">フィードテイラー、毎日の写真や一言を残していく新感覚のライフログサービス「Dailyshot」をスタート！</a>
+
+まだまだ機能面では不足があったり、開発中でアイデアはあったもののもう少し内容を詰めた方がいいという理由から取り下げた機能もあったりします。そのあたりは今後のリリースにて実装、機能提供する予定です。毎日記録していこうと思えるよう、記録を眺めるのが楽しくなるよう、サービス内容を広げていければと考えています。Dailyshot を、どうぞよろしくお願いします！
+
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>

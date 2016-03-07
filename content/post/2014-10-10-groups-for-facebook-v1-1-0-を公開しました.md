@@ -1,0 +1,79 @@
+---
+title: Groups for facebook. v1.1.0 を公開しました
+author: itok
+layout: post
+date: 2014-10-10
+banner: http://feedtailor.jp/staff/wp-content/uploads/2014/10/iTunesArtwork1-450x200.png
+archives:
+  - 2014/10
+  - 2014/10/10
+url: /2014/10/10/486
+categories:
+  - アプリご紹介
+tags:
+  - Groups
+  - アプリリリース
+
+---
+<a href="https://itunes.apple.com/jp/app/id561836613" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/icon_120.png" alt="icon_120" width="120" height="120" class="alignnone size-full wp-image-487" /></a>
+
+最終更新が1年前という古いアプリですが、久しぶりのアップデートです。
+
+#### 更新内容
+
+  * iOS7/8対応
+  
+    * 本バージョンからiOS7以降のみの対応となります
+  * iPhone6/6Plus対応
+  * システムのFacebookアカウントと連携
+  * 外部ライブラリ更新
+
+<a href="https://itunes.apple.com/jp/app/id561836613" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>
+
+iOS7がでたときはそのままにしていたのですが、iOS8を機に7/8対応ということで整理しました。
+
+ついでに大画面にも対応したので、従来の4inchが
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_1_4.png" alt="20141010_1_4" width="338" height="600" class="alignnone size-full wp-image-492" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_1_4.png)
+
+6Plusではこうなります。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_1.png" alt="20141010_1" width="337" height="600" class="alignnone size-full wp-image-493" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_1.png)
+
+* * *
+
+### ちょっと紹介
+
+1年ぶりのアップデートということなので、アプリ自身の紹介も少し。
+
+AppStoreから引用すると、
+
+> Groups for facebook (通称 Groups) は facebook のグループ閲覧や投稿に特化したアプリケーションです。
+
+というわけで、Facebookのグループを見るのに特化したアプリです。
+
+グループの数が増えてくると、注目したいグループだけを表示させたい、とか、気になるスレッドを常にチェックしておきたい、とかそういう要望が出てきます。もちろん、公式でも設定を使いこなせばある程度のことはできるんですが、そこは専用アプリでシンプルにいきましょうよ、と。
+
+起動してアカウントと連携させると、所属しているグループがざっと一覧で表示されます。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_2.png" alt="20141010_2" width="337" height="600" class="alignnone size-full wp-image-495" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_2.png)
+
+で、これ、必要なグループだけを残して、それ以外を非表示にすることもできるんです。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_5.png" alt="20141010_5" width="337" height="600" class="alignnone size-full wp-image-496" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_5.png)
+
+各グループの中は上記のスクリーンショットの通りですが、スレッドをのぞくとこんな感じ。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_3.png" alt="20141010_3" width="337" height="600" class="alignnone size-full wp-image-497" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_3.png)
+
+スレッドの右下にある☆マークをタップすることで、そのスレッドをお気に入りとして登録できます。お気に入りしたスレッドには簡単にアクセスできるようになります。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_4.png" alt="20141010_4" width="337" height="600" class="alignnone size-full wp-image-498" />](http://feedtailor.jp/staff/wp-content/uploads/2014/10/20141010_4.png)
+
+このようにシンプルながらにグループ使いとしては最低限の機能がそろっているのではないかと。
+
+* * *
+
+**無料**ですし、Facebookなみなさま、一度お試しくださいませ。
+
+<a href="https://itunes.apple.com/jp/app/id561836613" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>

@@ -1,0 +1,62 @@
+---
+title: チャットワークの新規投稿を通知するMacアプリ CWNotify をソースごと公開しました
+author: itok
+layout: post
+date: 2015-01-29
+banner: http://feedtailor.jp/staff/wp-content/uploads/2015/01/Icon_1024-450x200.png
+archives:
+  - 2015/01
+  - 2015/01/29
+url: /2015/01/29/749
+categories:
+  - アプリご紹介
+tags:
+  - CWNotify
+  - アプリリリース
+
+---
+社内ツール、社外ツールとして利用しているチャットワーク。
+
+<a href="http://www.chatwork.com/ja/" target="blank">チャットワーク（ChatWork） | ビジネスが加速するクラウド会議室</a>
+
+「ルームへの新規投稿を逃さす素早く知りたいですね」という話が社内で話題になり、ちょうどAPI（プレビュー版）も公開されたところでしたので社内ツールとしてつくった CWNotify をソース丸ごと公開します。
+
+<a href="https://github.com/feedtailor/CWNotify" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2015/01/Icon_128.png" alt="Icon_128" width="128" height="128" class="alignnone size-full wp-image-750" /></a>
+
+こちらにビルド済みバイナリもあるのでご利用ください。
+
+<a href="https://github.com/feedtailor/CWNotify/releases" target="_blank">GitHub: Releases · feedtailor/CWNotify</a>
+
+### 概要
+
+チャットワークのピン留めしたルームへの自分以外の投稿を通知センターに通知する、というそれだけのアプリです。
+
+自分宛の投稿じゃないからといって見逃すことが少なくなります。
+
+1分単位で更新しているのでそれなりのスピード感で通知が飛んできます。
+
+**注意**：チャットワークAPIはプレビュー版ですのでその点ご注意ください
+
+### 使い方
+
+上述のようにプレビュー版のAPIを使用しているため、APIの利用申請をしなければなりません（アカウントごとに）。
+
+<a href="http://developer.chatwork.com/ja/" target="_blank">チャットワークAPIドキュメント</a>
+
+このページのリンクをクリックすると、利用申請したことになります。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/01/ab4ee8ed0f4b2b129648967c05084d3b.png" alt="20150129_スクリーンショット 2015-01-29 9.21.04 のコピー" width="600" height="437" class="alignnone size-full wp-image-752" />](http://feedtailor.jp/staff/wp-content/uploads/2015/01/ab4ee8ed0f4b2b129648967c05084d3b.png)
+
+申請完了メールが届いたら、こちらのページに従って APIトークンを取得します。
+
+<a href="http://developer.chatwork.com/ja/authenticate.html" target="_blank">認証方法：チャットワークAPIドキュメント</a>
+
+ここでようやく CWNotify を起動。トークン入力画面が表示されますので、トークンを入力してOK。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/01/164b5e299699ea754e0c4d8012cf0e59.png" alt="スクリーンショット 2015-01-29 9.25.27" width="533" height="189" class="alignnone size-full wp-image-756" />](http://feedtailor.jp/staff/wp-content/uploads/2015/01/164b5e299699ea754e0c4d8012cf0e59.png)
+
+これで完了です。あとは、1分ごとにピン留めルームをチェックして通知センターに通知が上がってきます。（これはテスト用に自分の投稿を通知させてますが実際には通知されません）
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/01/7bfdfe0660da0db6d7ff6813da93e5db.png" alt="20150129_スクリーンショット 2015-01-29 9.30.17 のコピー" width="300" height="133" class="alignnone size-full wp-image-758" />](http://feedtailor.jp/staff/wp-content/uploads/2015/01/7bfdfe0660da0db6d7ff6813da93e5db.png)
+
+細かい調整や機能強化はぜひソースをいじってみてくださいませ。

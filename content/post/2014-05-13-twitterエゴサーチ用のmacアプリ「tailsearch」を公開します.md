@@ -1,0 +1,80 @@
+---
+title: Twitterエゴサーチ用のMacアプリ「TailSearch」を公開します
+author: itok
+layout: post
+date: 2014-05-13
+banner: http://feedtailor.jp/staff/wp-content/uploads/2014/05/fa7dba1710e981631c51613f212ac20e-450x200.png
+archives:
+  - 2014/05
+  - 2014/05/13
+url: /2014/05/13/129
+categories:
+  - アプリご紹介
+tags:
+  - TailSearch
+  - アプリリリース
+
+---
+久しぶりのMac新作アプリを公開します。
+
+<a href="https://itunes.apple.com/app/id870299267" target=_blank ><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/icon_128x128.png" alt="icon_128x128" width="128" height="128" class="alignnone size-full wp-image-130" /></a>
+
+その名も **TailSearch**
+
+MacAppStoreから引用しますと、
+
+> TailSearchは頻度の少ないキーワード用のTwitterエゴサーチアプリです。
+  
+> 「Twitterで○○に関するエゴサーチをしたいけど、あまりツイートがないのでつい検索確認するのを忘れてしまう」そういう方にぜひオススメです。 
+
+Macユーザの方も以前に比べれば多くなってきたことだと思います。普段、Macの前にいることが多いという人もそれなりにおられるのではないかと。
+
+自社製品とか、自作アプリとか、自分のブログの評判が気になるけれど、その都度Twitterの検索画面を開くのは面倒。そもそも、そんなにツイートされているわけでもないから、検索自体が面倒になって・・・ということもあるのではないでしょうか。
+
+Twitterクライアントで検索結果だけを通知してくれるアプリもあまりないですし、、、というわけで、作ってみました。検索専用。通知センター対応。
+
+<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
+
+### 使い方
+
+使い方は簡単です。基本的にはキーワードを登録するだけ。（検索オプションについてはTwitterの[ヘルプ](https://support.twitter.com/articles/249059-)をご覧ください）
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_setting-300x249.png" alt="tailsearch_setting" width="300" height="249" class="alignnone size-medium wp-image-136" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_setting.png)
+
+定期的に検索を実行し、新しいツイートがあれば通知センターでお知らせします。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_notify-300x91.png" alt="tailsearch_notify" width="300" height="91" class="alignnone size-medium wp-image-142" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_notify.png)
+
+直近の検索結果はメニューバーから確認可能。
+
+[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_menu-166x300.png" alt="tailsearch_menu" width="166" height="300" class="alignnone size-medium wp-image-137" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_menu.png)
+
+このメニューですが、普通にクリックするとツイートのWebページを開きます。
+
+が、それだけじゃなくて、
+
+  * ⌘+クリック: ツイート内のリンクをブラウザで開く
+  * option+クリック: リツイート
+  * control+クリック: お気に入りに登録
+
+なんてこともできるのです。これは便利。
+
+<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch.gif" alt="tailsearch" width="470" height="67" class="alignnone size-full wp-image-139" />
+
+↑このように、キーを押すと右上にテキスト表示されます
+
+#### 注意事項
+
+このアプリでは1日に数ツイートあるかないか、という頻度のキーワードを想定しています。
+
+更新頻度の高いキーワードを検索対象にしていると、通知センターもあふれますし、なにより大事な情報を取りこぼしてしまうかもしれません。
+
+普段は頻度が低いキーワードでも一時的にバズると、他の登録キーワードを押しのけて更新通知が適切に受け取れない可能性がありますので、その場合は検索条件を変えるか、キーワード一覧左端のチェックボックスで一時的に検索対象から外してみてください。
+
+* * *
+
+アイコンはいつもお世話になっている<a href="http://www.meta-glamour.com/" target=_blank>メタ・グラマー様</a>作。
+
+というわけで、新作Macアプリの紹介でした。ぜひ使ってみてください
+
+<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
