@@ -1,0 +1,7 @@
+baseurl = "http://staffblog.feedtailor.jp"
+title   = "feedtailor Inc. スタッフブログ"
+
+languageCode   = "ja"
+hasCJKLanguage = true
+disableSitemap = true
+verbose        = true
