@@ -3,7 +3,7 @@ title: そら案内 for Windows を公開しました
 author: itok
 layout: post
 date: 2015-03-31
-banner: http://feedtailor.jp/staff/wp-content/uploads/2015/03/Promotion846x468-450x200.png
+banner: /images/2015/03/Promotion846x468-450x200.png
 archives:
   - 2015/03
   - 2015/03/31
@@ -19,15 +19,15 @@ iOS/Mac/Androidでの定番お天気アプリ「そら案内」がついにWindo
 
 いやこれほんとの話です。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/Square150x150Logo-100.png" alt="Square150x150Logo-100" width="150" height="150" class="alignnone size-full wp-image-801" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/Square150x150Logo-100.png)
+[<img src="/images/2015/03/Square150x150Logo-100.png" alt="Square150x150Logo-100" width="150" height="150" class="alignnone size-full wp-image-801" />](/images/2015/03/Square150x150Logo-100.png)
 
-<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>
+<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="/images/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>
 
 基本的な機能としては既存の「そら案内」を踏襲していますが、Windows ストアアプリたるべく、インターフェースは一から検討し直しました。
 
 その結果、こうなりました。どんっ！
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_1.png" alt="20150326_1" width="600" height="337" class="alignnone size-full wp-image-803" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_1.png)
+[<img src="/images/2015/03/20150326_1.png" alt="20150326_1" width="600" height="337" class="alignnone size-full wp-image-803" />](/images/2015/03/20150326_1.png)
 
 一画面でほとんどすべての主要な情報を網羅しています。左から、今日明日の天気、注警報、週間予報、ですね。
 
@@ -35,23 +35,23 @@ iOS/Mac/Androidでの定番お天気アプリ「そら案内」がついにWindo
 
 これを横にスクロールすると、概況や生物季節情報もまとめて表示されます。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_2.png" alt="20150326_2" width="600" height="337" class="alignnone size-full wp-image-804" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_2.png)
+[<img src="/images/2015/03/20150326_2.png" alt="20150326_2" width="600" height="337" class="alignnone size-full wp-image-804" />](/images/2015/03/20150326_2.png)
 
 地域切り替えはWindowsのアプリバーを表示する要領で上からスワイプ、あるいは、右上の日本地図アイコンをタップしてください。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/4b91d3648e08868e7a5cda349a7443ca.png" alt="20150326_screenshot_03262015_135122 のコピー" width="800" height="449" class="alignnone size-full wp-image-805" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/4b91d3648e08868e7a5cda349a7443ca.png)
+[<img src="/images/2015/03/4b91d3648e08868e7a5cda349a7443ca.png" alt="20150326_screenshot_03262015_135122 のコピー" width="800" height="449" class="alignnone size-full wp-image-805" />](/images/2015/03/4b91d3648e08868e7a5cda349a7443ca.png)
 
 注警報の有無もこの一覧で把握できるようになっています。右端の「+」ボタンで地域の追加削除が可能です。位置情報を元にした「現在地の天気」も設定可能です。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/screenshot_03272015_103128.png" alt="screenshot_03272015_103128" width="600" height="337" class="alignnone size-full wp-image-821" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/screenshot_03272015_103128.png)
+[<img src="/images/2015/03/screenshot_03272015_103128.png" alt="screenshot_03272015_103128" width="600" height="337" class="alignnone size-full wp-image-821" />](/images/2015/03/screenshot_03272015_103128.png)
 
 また、タイル表示にも対応しておりますので、スタート画面にて現在地の天気予報を簡単に確認することもできます。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_4.png" alt="20150326_4" width="600" height="400" class="alignnone size-full wp-image-810" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/20150326_4.png)
+[<img src="/images/2015/03/20150326_4.png" alt="20150326_4" width="600" height="400" class="alignnone size-full wp-image-810" />](/images/2015/03/20150326_4.png)
 
 ただ、残念ながら、現時点（v1.0）では既存の「そら案内」にある天気画像（アメダスや雨雲レーダなど）の表示には対応しておりません。こちらは4月中の公開（v1.1）に向けて今もがりがりとコードを書いているところですので、今しばらくお待ちください。
 
-<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>
+<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="/images/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>
 
 * * *
 
@@ -67,7 +67,7 @@ Objective-C、Swift、Java、C#、それからたまにJavaScript（node.js用�
 
 永遠のWindows初心者のつもりだったのに、まさか終礼で.NETやXAMLについての新発見を話す日が来るとはね。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/4bbbfc3d2e2e905a903b352b067132261.jpg" alt="20150327_IMG_7212 のコピー" width="600" height="450" class="alignnone size-full wp-image-824" />](http://feedtailor.jp/staff/wp-content/uploads/2015/03/4bbbfc3d2e2e905a903b352b067132261.jpg)
+[<img src="/images/2015/03/4bbbfc3d2e2e905a903b352b067132261.jpg" alt="20150327_IMG_7212 のコピー" width="600" height="450" class="alignnone size-full wp-image-824" />](/images/2015/03/4bbbfc3d2e2e905a903b352b067132261.jpg)
 
 これでitokもWindowsのアプリをどんどん作るのかというと決してそういうわけではなく、じゃあなんで作ったのかといえばいうまでもなく「**それは『そら案内』だから**」なのです。これ一番大事。C#は結構好きになりましたけどね。
 
@@ -75,4 +75,4 @@ Objective-C、Swift、Java、C#、それからたまにJavaScript（node.js用�
 
 そら案内 for Windows、もちろん**無料**です。Windowsユーザの皆さん、ぜひお使いくださいませ。
 
-<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>
+<a href="http://apps.microsoft.com/windows/app/3bf3f7df-2f79-4949-9467-5385c3ced46b" target="_blank"><img src="/images/2015/03/WindowsStore_badge_Japanese_ja_Black_med_258x67.png" alt="WindowsStore_badge_Japanese_ja_Black_med_258x67" width="258" height="67" class="alignnone size-full wp-image-813" /></a>

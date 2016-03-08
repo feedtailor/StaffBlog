@@ -3,7 +3,7 @@ title: feedtailor スタッフブログを始めます
 author: oishi
 layout: post
 date: 2014-04-17
-banner: http://feedtailor.jp/staff/wp-content/uploads/2014/04/20140327-1-450x200.jpg
+banner: /images/2014/04/20140327-1-450x200.jpg
 archives:
   - 2014/04
   - 2014/04/17
@@ -14,7 +14,7 @@ categories:
 ---
 feedtailor代表の oishi です。
 
-これまで[(株)フィードテイラー](http://feedtailor.jp/)のブログは僕の個人ブログ的(?)な[社長ブログ](http://feedtailor.jp/wp/)のみだったのですが、この度、エンジニアを含む弊社スタッフが自ら発信する場として別ブログを立ち上げる事にしました。名付けて **feedtailor スタッフブログ** &#8230;ってそのままですね  <img src="http://feedtailor.jp/staff/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
+これまで[(株)フィードテイラー](http://feedtailor.jp/)のブログは僕の個人ブログ的(?)な[社長ブログ](http://feedtailor.jp/wp/)のみだったのですが、この度、エンジニアを含む弊社スタッフが自ら発信する場として別ブログを立ち上げる事にしました。名付けて **feedtailor スタッフブログ** &#8230;ってそのままですね  <img src="/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
 
 例えばアプリの話。これまでは僕が社長ブログでアプリ紹介を書いていたのですが、アップデートには余り言及出来ていなかったりとか、あるアプリの実は面白い機能や活用方が紹介しきれていなかったりとか、ちょっと勿体ない事になっていたのです。
 
@@ -22,4 +22,4 @@ feedtailor代表の oishi です。
 
 他にもウチの社内の雑多なネタ、今週のお菓子とか(笑)、[毎日夕方にやってる新発見](http://feedtailor.jp/wp/?p=8384)ネタとか、そんな話題もありかも知れないですね。まぁまぁ色々考えられるのでいわゆる開発ブログ的な位置付けではなく、緩い感じでスタッフブログとしました。
 
-基本的に執筆陣は僕以外がメインになると思います。月に数回更新できれば&#8230;ぐらいの頻度でやっていく予定ですので御覧頂ければ幸いです。そんな訳で [feedtailorスタッフブログ](http://feedtailor.jp/staff/) をどうぞ宜しくお願い致します。
+基本的に執筆陣は僕以外がメインになると思います。月に数回更新できれば&#8230;ぐらいの頻度でやっていく予定ですので御覧頂ければ幸いです。そんな訳で [feedtailorスタッフブログ](/) をどうぞ宜しくお願い致します。

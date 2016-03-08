@@ -3,7 +3,7 @@ title: 新サービス Dailyshot をリリース！
 author: kumakura
 layout: post
 date: 2014-11-05
-banner: http://feedtailor.jp/staff/wp-content/uploads/2014/11/dailyshot_logo_100.png
+banner: /images/2014/11/dailyshot_logo_100.png
 archives:
   - 2014/11
   - 2014/11/05
@@ -16,7 +16,7 @@ categories:
   
 サービスの企画＆サーバ開発のくまくら ([@kumatch](http://twitter.com/kumatch)) です。
 
-<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/dailyshot_icon-150x150.png" alt="dailyshot_icon" width="150" height="150" class="alignnone size-thumbnail wp-image-581" /></a>
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="/images/2014/11/dailyshot_icon-150x150.png" alt="dailyshot_icon" width="150" height="150" class="alignnone size-thumbnail wp-image-581" /></a>
 
 ## 色々な小さな情報を毎日記録
 
@@ -26,13 +26,13 @@ Dailyshot は、自分で決めたテーマに基づいて、一日の様々な�
 
 一方、他の人（友人）も同じように一日単位の小さな記録を作っています。あなたがその人をサービス内でフォローすると、自分の毎日の記録と並んで、その人の記録が一緒に表示されます。そうすると、ある一日の出来事として、あなたと友人がどうだったのかということを眺めることができます。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_01-169x300.png" alt="press_dailyshot_ios_01" width="169" height="300" class="alignnone size-medium wp-image-570" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_01.png)
+[<img src="/images/2014/11/press_dailyshot_ios_01-169x300.png" alt="press_dailyshot_ios_01" width="169" height="300" class="alignnone size-medium wp-image-570" />](/images/2014/11/press_dailyshot_ios_01.png)
 
 ふとしたきっかけで過去の自分や友人の身の回りを振り返って眺めるというのはなかなか楽しいものです。あるいは、友人同士であえて同じテーマの内容を毎日記録していって、比較をしては一喜一憂するのも良いかもしれません。
 
 みんなの毎日の記録が一杯になってくると、大きな画面で一気に眺めるのが壮観です。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_09-300x141.png" alt="press_dailyshot_ios_09" width="300" height="141" class="alignnone size-medium wp-image-573" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_09.png)
+[<img src="/images/2014/11/press_dailyshot_ios_09-300x141.png" alt="press_dailyshot_ios_09" width="300" height="141" class="alignnone size-medium wp-image-573" />](/images/2014/11/press_dailyshot_ios_09.png)
 
 iPhone6 Plus の大きな画面で見るのがオススメですね！
 
@@ -40,7 +40,7 @@ iPhone6 Plus の大きな画面で見るのがオススメですね！
 
 なので、文字を記録することができる「単文」で入力可能な文字数は、７文字にしました。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_03-169x300.png" alt="press_dailyshot_ios_03" width="169" height="300" class="alignnone size-medium wp-image-574" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_03.png)
+[<img src="/images/2014/11/press_dailyshot_ios_03-169x300.png" alt="press_dailyshot_ios_03" width="169" height="300" class="alignnone size-medium wp-image-574" />](/images/2014/11/press_dailyshot_ios_03.png)
 
 Dailyshot は、企画時点でこの仕様を提示した際には少し笑いが起きた上で、サービス用のアプリ開発の開始直後、アプリ担当の [@sumihiro](http://twitter.com/sumihiro) が始めて単文をアプリから投稿しようと「Dailyshot」と入力したところ、サーバからエラー応答を受け取ったため、サーバの不具合ではないかと本気で聞かれたところから始まりました。（もちろんサーバ視点では妥当な振る舞い）
 
@@ -50,7 +50,7 @@ Dailyshot では、他のひとが記録として投稿した内容に対して�
 
 Like をたくさん贈るためには、ほんの少し昔に流行ったあのやり方と同じように、ボタンをたくさん押します。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_06-169x300.png" alt="press_dailyshot_ios_06" width="169" height="300" class="alignnone size-medium wp-image-575" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/press_dailyshot_ios_06.png)
+[<img src="/images/2014/11/press_dailyshot_ios_06-169x300.png" alt="press_dailyshot_ios_06" width="169" height="300" class="alignnone size-medium wp-image-575" />](/images/2014/11/press_dailyshot_ios_06.png)
 
 しかし、一度に無制限で贈れてしまうと訳が分からなくなってしまうので、一応僅かばかりの制約を作りました。システムとして現在 Like 可能な数が設けられています。Like リソースの上限値が 100 になっていますので、あるタイミングで１つの投稿に Like できる数は 100 まで、ということになります。このリソースは時間と共に回復する、これまたよく聞いたことがあるようなシステムです。回復したあと、同じ投稿に対して再び Like することは可能ですので、日を改めて投稿を見た際にやっぱり気に入っていてもう一度幾つか贈る、というような楽しみ方ができますよ。
 
@@ -82,4 +82,4 @@ Dailyshot は、たとえば次にあげるような楽しみ方があります�
 
 まだまだ機能面では不足があったり、開発中でアイデアはあったもののもう少し内容を詰めた方がいいという理由から取り下げた機能もあったりします。そのあたりは今後のリリースにて実装、機能提供する予定です。毎日記録していこうと思えるよう、記録を眺めるのが楽しくなるよう、サービス内容を広げていければと考えています。Dailyshot を、どうぞよろしくお願いします！
 
-<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="/images/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>

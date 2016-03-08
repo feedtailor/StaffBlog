@@ -3,7 +3,7 @@ title: 新しいライフログサービス Dailyshot の ver1.1.0 を公開し�
 author: すみひろ
 layout: post
 date: 2014-11-17
-banner: http://feedtailor.jp/staff/wp-content/uploads/2014/11/dailyshot_logo_100.png
+banner: /images/2014/11/dailyshot_logo_100.png
 archives:
   - 2014/11
   - 2014/11/17
@@ -16,13 +16,13 @@ tags:
 ---
 [すみひろ](http://twitter.com/sumihiro)です。Dailyshotに投稿するために肉のネタを探し回る毎日です。ウラナンバにはいい店が多いですね。
 
-先日、 [新サービス Dailyshot をリリース](http://feedtailor.jp/staff/2014/11/05/565) しましたが、本日はその Dailyshot のアップデート v1.1.0 のご紹介です。
+先日、 [新サービス Dailyshot をリリース](/2014/11/05/565) しましたが、本日はその Dailyshot のアップデート v1.1.0 のご紹介です。
 
 あ、ご紹介が遅れました。 Dailyshot は企画とサーバ側を [くまくら](http://twitter.com/kumatch) が担当し、クライアントは私 [すみひろ](http://twitter.com/sumihiro) が担当しています。
 
 Dailyshot のダウンロードはこちらから。
   
-<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="/images/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>
 
 ## アップデートの内容
 
@@ -66,7 +66,7 @@ Dailyshot は表計算ソフトのように行と列で構成されています�
   
 使い方は簡単。シェアしたいショットを表示させ、「シェア」ボタンを押せばシェアする方法を選ぶことができます。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/IMG_3064-300x266.jpg" alt="IMG_3064" width="300" height="266" class="alignnone size-medium wp-image-620" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/IMG_3064.jpg)
+[<img src="/images/2014/11/IMG_3064-300x266.jpg" alt="IMG_3064" width="300" height="266" class="alignnone size-medium wp-image-620" />](/images/2014/11/IMG_3064.jpg)
 
 Twitter や Facebook にシェアする場合には iOS の設定でそれぞれのアカウントの設定が必要ですのでご注意くださいね。
 
@@ -82,7 +82,7 @@ Dailyshot は「フォローしているユーザーがショットを投稿し�
   
 「フォローしているユーザーがショットを投稿した時」と「自分のショットにLikeがついた時」の通知をそれぞれ別にオンオフの設定ができますので、必要に応じて使い分けましょう。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/11/IMG_3067-300x266.jpg" alt="IMG_3067" width="300" height="266" class="alignnone size-medium wp-image-621" />](http://feedtailor.jp/staff/wp-content/uploads/2014/11/IMG_3067.jpg)
+[<img src="/images/2014/11/IMG_3067-300x266.jpg" alt="IMG_3067" width="300" height="266" class="alignnone size-medium wp-image-621" />](/images/2014/11/IMG_3067.jpg)
 
 お詫び： v1.1.0 現在、通知の設定を表示した時に、すでに設定されたされた状態ではなく両方ともオフで表示されてしまう不具合が確認されています。次のリリースで修正される予定です。表示がオフになっていても、最後にオンに設定した状態では通知は正しく行われます。
 
@@ -116,8 +116,8 @@ Dailyshot では [利用規約](http://dailyshot.me/legal/terms.html) の第9条
   
 該当するサービスを運営する方はご注意を。
 
-<a herf="http://feedtailor.jp/staff/2014/11/17/627">14.3項のリジェクトに対応する方法</a>を別記事でご用意しています。
+<a herf="/2014/11/17/627">14.3項のリジェクトに対応する方法</a>を別記事でご用意しています。
   
 Dailyshot のダウンロードはこちらから。
   
-<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>
+<a href="https://itunes.apple.com/jp/app/dailyshot/id932716879" target="_blank"><img src="/images/2014/04/Download_on_the_App_Store_Badge_JP_135x40_1004.png" alt="AppStoreからダウンロード" width="135" height="40" class="alignnone size-full wp-image-58" /></a>

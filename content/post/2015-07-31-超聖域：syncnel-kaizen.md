@@ -42,11 +42,11 @@ www.example.com という A レコードと *.example.com というワイルド�
 
 たとえば、特定した会社によってシャーディングしたり、リクエスト元の制限や認証方式の切り替えなどを統括して行いたいというのであれば、エントリサーバでそれらの処理を行った上で後ろに控えるアプリケーションサーバへ Proxy するといった体制が考えられます。この体制のポイントとしてアプリケーションサーバで備えているサービス固有の振る舞いとは切り離されていて、アプリケーションレイヤには直接関係のないインフラストラクチャやセキュリティの解決が行えているというところです。アクセスコントロールが主たる目的となります。
 
-<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/07/3e571536dc03bb3a152da5af748424e2.png" alt="access control" width="743" height="490" class="alignnone size-full wp-image-993" />
+<img src="/images/2015/07/3e571536dc03bb3a152da5af748424e2.png" alt="access control" width="743" height="490" class="alignnone size-full wp-image-993" />
 
 一方、アプリケーション内で特定した会社ごとに固有な内容に基づく振る舞いを行いたい場合は、アプリケーションサーバ上で直接サブドメイン名による会社の特定と処理を行う必要があります。たとえば簡単な例だとページトップのロゴを変更したりですとか、特定した会社による名前空間内でサービスのための処理を施すなどが考えられます。こういったケースだと、この振る舞いそのものはアプリケーションレイヤに組み込まれるべき実装になっていくことでしょう。こちらは実際のサービス内容を決定する、サービスコントロールが主の目的になります。
 
-<img src="http://feedtailor.jp/staff/wp-content/uploads/2015/07/009c9f7a4c31e2ce5119767977c90e13.png" alt="service control" width="775" height="388" class="alignnone size-full wp-image-994" />
+<img src="/images/2015/07/009c9f7a4c31e2ce5119767977c90e13.png" alt="service control" width="775" height="388" class="alignnone size-full wp-image-994" />
 
 以上で目的がはっきりとしました。
 

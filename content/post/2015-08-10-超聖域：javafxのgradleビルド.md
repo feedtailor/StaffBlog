@@ -3,7 +3,7 @@ title: 超聖域：JavaFXのGradleビルド
 author: tamaoki
 layout: post
 date: 2015-08-10
-banner: http://feedtailor.jp/staff/wp-content/uploads/2015/08/javafx_gradle_screenshot-450x184.png
+banner: /images/2015/08/javafx_gradle_screenshot-450x184.png
 archives:
   - 2015/08
   - 2015/08/10

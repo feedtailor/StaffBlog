@@ -3,7 +3,7 @@ title: Node Express でそこまで取り上げられていないあれこれ
 author: kumakura
 layout: post
 date: 2014-07-28
-banner: http://feedtailor.jp/staff/wp-content/uploads/2014/07/express-450x141.png
+banner: /images/2014/07/express-450x141.png
 archives:
   - 2014/07
   - 2014/07/28

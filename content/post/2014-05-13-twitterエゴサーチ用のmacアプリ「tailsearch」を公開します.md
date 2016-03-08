@@ -3,7 +3,7 @@ title: Twitterエゴサーチ用のMacアプリ「TailSearch」を公開しま�
 author: itok
 layout: post
 date: 2014-05-13
-banner: http://feedtailor.jp/staff/wp-content/uploads/2014/05/fa7dba1710e981631c51613f212ac20e-450x200.png
+banner: /images/2014/05/fa7dba1710e981631c51613f212ac20e-450x200.png
 archives:
   - 2014/05
   - 2014/05/13
@@ -17,7 +17,7 @@ tags:
 ---
 久しぶりのMac新作アプリを公開します。
 
-<a href="https://itunes.apple.com/app/id870299267" target=_blank ><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/icon_128x128.png" alt="icon_128x128" width="128" height="128" class="alignnone size-full wp-image-130" /></a>
+<a href="https://itunes.apple.com/app/id870299267" target=_blank ><img src="/images/2014/05/icon_128x128.png" alt="icon_128x128" width="128" height="128" class="alignnone size-full wp-image-130" /></a>
 
 その名も **TailSearch**
 
@@ -33,21 +33,21 @@ Macユーザの方も以前に比べれば多くなってきたことだと思�
 
 Twitterクライアントで検索結果だけを通知してくれるアプリもあまりないですし、、、というわけで、作ってみました。検索専用。通知センター対応。
 
-<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
+<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="/images/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
 
 ### 使い方
 
 使い方は簡単です。基本的にはキーワードを登録するだけ。（検索オプションについてはTwitterの[ヘルプ](https://support.twitter.com/articles/249059-)をご覧ください）
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_setting-300x249.png" alt="tailsearch_setting" width="300" height="249" class="alignnone size-medium wp-image-136" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_setting.png)
+[<img src="/images/2014/05/tailsearch_setting-300x249.png" alt="tailsearch_setting" width="300" height="249" class="alignnone size-medium wp-image-136" />](/images/2014/05/tailsearch_setting.png)
 
 定期的に検索を実行し、新しいツイートがあれば通知センターでお知らせします。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_notify-300x91.png" alt="tailsearch_notify" width="300" height="91" class="alignnone size-medium wp-image-142" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_notify.png)
+[<img src="/images/2014/05/tailsearch_notify-300x91.png" alt="tailsearch_notify" width="300" height="91" class="alignnone size-medium wp-image-142" />](/images/2014/05/tailsearch_notify.png)
 
 直近の検索結果はメニューバーから確認可能。
 
-[<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_menu-166x300.png" alt="tailsearch_menu" width="166" height="300" class="alignnone size-medium wp-image-137" />](http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch_menu.png)
+[<img src="/images/2014/05/tailsearch_menu-166x300.png" alt="tailsearch_menu" width="166" height="300" class="alignnone size-medium wp-image-137" />](/images/2014/05/tailsearch_menu.png)
 
 このメニューですが、普通にクリックするとツイートのWebページを開きます。
 
@@ -59,7 +59,7 @@ Twitterクライアントで検索結果だけを通知してくれるアプリ�
 
 なんてこともできるのです。これは便利。
 
-<img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/tailsearch.gif" alt="tailsearch" width="470" height="67" class="alignnone size-full wp-image-139" />
+<img src="/images/2014/05/tailsearch.gif" alt="tailsearch" width="470" height="67" class="alignnone size-full wp-image-139" />
 
 ↑このように、キーを押すと右上にテキスト表示されます
 
@@ -77,4 +77,4 @@ Twitterクライアントで検索結果だけを通知してくれるアプリ�
 
 というわけで、新作Macアプリの紹介でした。ぜひ使ってみてください
 
-<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="http://feedtailor.jp/staff/wp-content/uploads/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
+<a href="https://itunes.apple.com/app/id870299267" target=_blank><img src="/images/2014/05/Download_on_the_Mac_App_Store_Badge_JP_165x40_1004.png" alt="Download_on_the_Mac_App_Store_Badge_JP_165x40_1004" width="165" height="40" class="alignnone size-full wp-image-145" /></a>
