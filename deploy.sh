@@ -11,7 +11,7 @@ cd public
 git add -A
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="rebuilding site `date \"+%Y-%m-%dT%H:%M:%S+09:00\"`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi

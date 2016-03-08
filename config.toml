@@ -1,4 +1,4 @@
-baseurl = "http://staffblog.feedtailor.jp/"
+baseurl = "http://staff.feedtailor.jp/"
 title   = "feedtailor Inc. スタッフブログ"
 
 theme = "hugo-icarus-theme"
