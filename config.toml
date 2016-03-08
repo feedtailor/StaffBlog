@@ -1,10 +1,13 @@
 baseurl = "http://staffblog.feedtailor.jp"
 title   = "feedtailor Inc. スタッフブログ"
 
+theme = "hugo-icarus-theme"
+
 languageCode   = "ja"
 hasCJKLanguage = true
 disableSitemap = true
 verbose        = true
+canonifyURLs   = false
 
 metaDataFormat = "yaml"
 
@@ -14,14 +17,15 @@ disqusShortname = ""
 googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
-footnotereturnlinkcontents = "↩"
-theme = "hugo-icarus-theme"
-
+footnoteReturnLinkContents = "↩"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
   archive = "archives"
+
+[blackfriday]
+    fractions = false
 
 
 [permalinks]
