@@ -3,7 +3,7 @@ title: 'そら案内（iOS版） v4.0.0 を公開しました – iOS8 & iPhone6
 author: itok
 layout: post
 date: 2014-11-10
-banner: /images/2014/05/iTunesArtwork-450x200.png
+banner: images/2014/05/iTunesArtwork-450x200.png
 archives:
   - 2014/11
   - 2014/11/10

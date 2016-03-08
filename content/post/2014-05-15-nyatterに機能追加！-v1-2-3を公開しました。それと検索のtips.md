@@ -3,7 +3,7 @@ title: Nyatterに機能追加！ v1.2.3を公開しました。それと検索�
 author: すみひろ
 layout: post
 date: 2014-05-15
-banner: /images/2014/04/portrait-e1397112373169.png
+banner: images/2014/04/portrait-e1397112373169.png
 archives:
   - 2014/05
   - 2014/05/15

@@ -3,7 +3,7 @@ title: Groups for facebook. v1.1.0 を公開しました
 author: itok
 layout: post
 date: 2014-10-10
-banner: /images/2014/10/iTunesArtwork1-450x200.png
+banner: images/2014/10/iTunesArtwork1-450x200.png
 archives:
   - 2014/10
   - 2014/10/10

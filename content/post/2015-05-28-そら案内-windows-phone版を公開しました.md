@@ -3,7 +3,7 @@ title: そら案内 Windows Phone版を公開しました
 author: itok
 layout: post
 date: 2015-05-28
-banner: /images/2015/03/Promotion846x468-450x200.png
+banner: images/2015/03/Promotion846x468-450x200.png
 archives:
   - 2015/05
   - 2015/05/28

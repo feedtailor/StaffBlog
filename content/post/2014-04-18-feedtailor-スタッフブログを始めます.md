@@ -3,7 +3,7 @@ title: feedtailor スタッフブログを始めます
 author: oishi
 layout: post
 date: 2014-04-17
-banner: /images/2014/04/20140327-1-450x200.jpg
+banner: images/2014/04/20140327-1-450x200.jpg
 archives:
   - 2014/04
   - 2014/04/17

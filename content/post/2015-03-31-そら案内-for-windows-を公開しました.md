@@ -3,7 +3,7 @@ title: そら案内 for Windows を公開しました
 author: itok
 layout: post
 date: 2015-03-31
-banner: /images/2015/03/Promotion846x468-450x200.png
+banner: images/2015/03/Promotion846x468-450x200.png
 archives:
   - 2015/03
   - 2015/03/31

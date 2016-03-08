@@ -3,7 +3,7 @@ title: CodeScanner v2.0.0 を公開しました
 author: itok
 layout: post
 date: 2014-10-14
-banner: /images/2014/10/iTunesArtwork2-450x200.png
+banner: images/2014/10/iTunesArtwork2-450x200.png
 archives:
   - 2014/10
   - 2014/10/14

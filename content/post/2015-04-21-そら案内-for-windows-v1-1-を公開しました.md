@@ -3,7 +3,7 @@ title: そら案内 for Windows v1.1 を公開しました
 author: itok
 layout: post
 date: 2015-04-21
-banner: /images/2015/03/Promotion846x468-450x200.png
+banner: images/2015/03/Promotion846x468-450x200.png
 archives:
   - 2015/04
   - 2015/04/21

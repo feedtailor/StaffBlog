@@ -3,7 +3,7 @@ title: iPhone用YouTube再生リスト専用プレーヤー BGTube を公開し�
 author: itok
 layout: post
 date: 2014-05-21
-banner: /images/2014/05/8b9c5dd4976a3fa0a3a7c091228963c7-450x200.png
+banner: images/2014/05/8b9c5dd4976a3fa0a3a7c091228963c7-450x200.png
 archives:
   - 2014/05
   - 2014/05/21

@@ -3,7 +3,7 @@ title: チャットワークの新規投稿を通知するMacアプリ CWNotify 
 author: itok
 layout: post
 date: 2015-01-29
-banner: /images/2015/01/Icon_1024-450x200.png
+banner: images/2015/01/Icon_1024-450x200.png
 archives:
   - 2015/01
   - 2015/01/29

@@ -3,7 +3,7 @@ title: そら案内（iOS版） v4.1.0 を公開しました – AppleWatch対�
 author: itok
 layout: post
 date: 2015-04-17
-banner: /images/2015/03/Promotion846x468-450x200.png
+banner: images/2015/03/Promotion846x468-450x200.png
 archives:
   - 2015/04
   - 2015/04/17

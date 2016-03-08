@@ -3,7 +3,7 @@ title: 新サービス Dailyshot をリリース！
 author: kumakura
 layout: post
 date: 2014-11-05
-banner: /images/2014/11/dailyshot_logo_100.png
+banner: images/2014/11/dailyshot_logo_100.png
 archives:
   - 2014/11
   - 2014/11/05

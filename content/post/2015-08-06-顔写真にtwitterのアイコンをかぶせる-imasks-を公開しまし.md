@@ -3,7 +3,7 @@ title: 顔写真にTwitterのアイコンをかぶせる iMasks を公開しま�
 author: itok
 layout: post
 date: 2015-08-06
-banner: /images/2015/08/launch-bg-450x200.png
+banner: images/2015/08/launch-bg-450x200.png
 archives:
   - 2015/08
   - 2015/08/06

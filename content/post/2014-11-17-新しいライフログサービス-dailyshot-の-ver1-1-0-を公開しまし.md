@@ -3,7 +3,7 @@ title: 新しいライフログサービス Dailyshot の ver1.1.0 を公開し�
 author: すみひろ
 layout: post
 date: 2014-11-17
-banner: /images/2014/11/dailyshot_logo_100.png
+banner: images/2014/11/dailyshot_logo_100.png
 archives:
   - 2014/11
   - 2014/11/17

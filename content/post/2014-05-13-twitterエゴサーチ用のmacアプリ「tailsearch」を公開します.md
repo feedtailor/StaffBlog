@@ -3,7 +3,7 @@ title: Twitterエゴサーチ用のMacアプリ「TailSearch」を公開しま�
 author: itok
 layout: post
 date: 2014-05-13
-banner: /images/2014/05/fa7dba1710e981631c51613f212ac20e-450x200.png
+banner: images/2014/05/fa7dba1710e981631c51613f212ac20e-450x200.png
 archives:
   - 2014/05
   - 2014/05/13
