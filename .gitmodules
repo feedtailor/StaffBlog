@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/feedtailor-staff/feedtailor-staff.github.io.git
+	branch = master
