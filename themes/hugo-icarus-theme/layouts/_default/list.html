@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
 {{ partial "head" . }}
+
+<body>
 
 <div id="container">
     {{ partial "header" . }}
@@ -25,5 +30,6 @@
 </div>
 
 {{ partial "footer" . }}
+
 </body>
 </html>
