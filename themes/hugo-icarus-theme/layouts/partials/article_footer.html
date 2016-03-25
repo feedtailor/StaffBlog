@@ -1,7 +1,30 @@
 <footer class="article-footer">
-    <a data-url="{{ .Permalink }}" data-id="{{ .UniqueID }}" class="article-share-link">
-        {{with .Site.Data.l10n.articles.share}}{{.}}{{end}}
-    </a>
+    <div class="article-share-link">
+        <!-- facebook common -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!-- facebook -->
+        <div class="article-share-link-button">
+            <div class="fb-like" data-href="{{ if isset .Params "old_url" }}{{ .Params.old_url }}{{ else }}{{ .Permalink }}{{ end }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
+        <!-- twitter -->
+        <div class="article-share-link-button">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ if isset .Params "old_url" }}{{ .Params.old_url }}{{ else }}{{ .Permalink }}{{ end }}" data-lang="ja">ツイート</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <!-- はてブ -->
+        <div class="article-share-link-button">
+            <a href="http://b.hatena.ne.jp/entry/{{ if isset .Params "old_url" }}{{ .Params.old_url }}{{ else }}{{ .Permalink }}{{ end }}" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
+            <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+            <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+        </div>
+    </div>
     {{ if not (eq .Site.DisqusShortname "") }}
     <a href="{{ .Permalink }}/#disqus_thread" class="article-comment-link">
         {{with .Site.Data.l10n.articles.comments}}{{.}}{{end}}
