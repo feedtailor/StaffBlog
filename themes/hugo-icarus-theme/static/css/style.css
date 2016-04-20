@@ -309,6 +309,10 @@ a:visited {
 .widget dt {
   font-weight: bold;
 }
+.article-entry dd,
+.widget dd {
+  margin-left: 1.6rem;
+}
 #header {
   background: #fff;
   position: relative;
