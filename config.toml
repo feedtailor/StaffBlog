@@ -37,7 +37,7 @@ footnoteReturnLinkContents = "↩"
     author = "feedtailor Inc."
     bio = ""
     location = "Osaka, Japan"
-    site_description = ""
+    site_description = "feedtailor Inc. スタッフブログ"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = ""
 
